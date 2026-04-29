@@ -1,15 +1,15 @@
 # 📊 Telecom Customer Churn Analysis
 
 ## 📌 Project Overview
-This project analyzes telecom customer data to identify key factors contributing to customer churn and builds machine learning models to predict customer retention.
+This project analyzes telecom customer data to identify key factors contributing to customer churn and builds machine learning models to predict customer retention. It demonstrates an end-to-end data analytics workflow from data preprocessing to business insights.
 
 ---
 
-## 🎯 Objectives
-- Identify key churn drivers  
-- Analyze customer behavior patterns  
-- Build predictive models for churn  
-- Provide actionable business recommendations  
+## 🎯 Business Objectives
+- Identify key drivers of customer churn  
+- Analyze customer demographics and behavior  
+- Build predictive models to identify high-risk customers  
+- Provide actionable recommendations for customer retention  
 
 ---
 
@@ -22,7 +22,7 @@ This project analyzes telecom customer data to identify key factors contributing
 ---
 
 ## 🤖 Machine Learning Models
-- Logistic Regression  
+- Logistic Regression (Accuracy: 81%)  
 - Random Forest  
 - XGBoost  
 
@@ -31,24 +31,61 @@ This project analyzes telecom customer data to identify key factors contributing
 ## 📊 Key Insights
 - Customers with high monthly charges are more likely to churn  
 - Long-term customers show lower churn rates  
-- Certain contract types significantly reduce churn  
+- Certain service and contract types influence churn significantly  
+- Customers with multiple services show different churn behavior  
 
 ---
 
 ## 📈 Business Impact
-- Helps telecom companies reduce customer loss  
-- Identifies high-risk customers for targeted retention  
-- Supports data-driven customer engagement strategies  
+- Helps telecom companies identify high-risk customers  
+- Supports targeted retention strategies  
+- Enables data-driven decision-making to reduce churn  
 
 ---
 
-## 📸 Dashboard / Analysis Preview
-(Add images here)
+## 📸 Analysis Preview
+
+### Dashboard
+![Dashboard](images/dashboard.png)
+
+### Customer Demographics
+![Demographics](images/customer-demographics.png)
+
+### Service Behavior
+![Service](images/service-behavior.png)
+
+### Billing & Payments
+![Billing](images/billing-payments.png)
+
+### ML Predictions
+![ML](images/ml-predictions.png)
 
 ---
 
 ## 📎 Project Links
-https://app.powerbi.com/view?r=eyJrIjoiMzk2NGEyYmItNWVmNC00MDM1LWI0ZjctYjI0MmNiNGRlMmU0IiwidCI6IjgzY2U2OTI0LTViZjctNDE3ZS05YWZjLWMxOWQ4YjZkYzAwOCJ9
+- 🔗 [View Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNDVhOTM5YTEtZjI2MC00ZTRmLThkM2UtOWRhZWQ1ZmY1ZGRhIiwidCI6IjgzY2U2OTI0LTViZjctNDE3ZS05YWZjLWMxOWQ4YjZkYzAwOCJ9)
+
+---
+
+## 🧾 SQL Analysis
+- `table_creation.sql` → Database schema creation  
+- `data_cleaning.sql` → Data preprocessing  
+- `data_analysis.sql` → KPI generation and insights  
+
+📂 Available in the `/sql` folder  
+
+---
+
+## 📊 Excel Analysis
+- `churn_dashboard.xlsx` → Excel dashboard  
+- `pivot_analysis.xlsx` → Pivot-based analysis  
+
+---
+
+## 📄 Documentation
+Detailed project report explaining methodology, analysis, and results  
+
+📂 Available in the `/docs` folder  
 
 ---
 
@@ -57,3 +94,5 @@ https://app.powerbi.com/view?r=eyJrIjoiMzk2NGEyYmItNWVmNC00MDM1LWI0ZjctYjI0MmNiN
 - Exploratory Data Analysis (EDA)  
 - Machine Learning Model Building  
 - Model Evaluation  
+- Data Visualization  
+- Business Insight Generation  
