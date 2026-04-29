@@ -63,7 +63,7 @@ This project analyzes telecom customer data to identify key factors contributing
 ---
 
 ## 📎 Project Links
-- 🔗 [View Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNDVhOTM5YTEtZjI2MC00ZTRmLThkM2UtOWRhZWQ1ZmY1ZGRhIiwidCI6IjgzY2U2OTI0LTViZjctNDE3ZS05YWZjLWMxOWQ4YjZkYzAwOCJ9)
+- 🔗 [View Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMzk2NGEyYmItNWVmNC00MDM1LWI0ZjctYjI0MmNiNGRlMmU0IiwidCI6IjgzY2U2OTI0LTViZjctNDE3ZS05YWZjLWMxOWQ4YjZkYzAwOCJ9)
 
 ---
 
